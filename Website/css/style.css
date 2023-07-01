@@ -1,0 +1,56 @@
+ /* CSS grid video https://www.youtube.com/watch?v=Y9rHsdCxU8Q */
+
+ html {
+     scroll-behavior: smooth; /* doesn't do anything right now, but a nice feature to have */
+ }
+ 
+ body {
+    margin: 0;
+}
+
+.grid-container {
+    width: 100vw;
+    height: 100vh;
+
+    /* This can all be changed */
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+
+    display: grid;
+
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+header, main, footer {
+    padding: 10px;
+}
+
+header, nav, main, footer {
+    /* border: 1px solid #000000 */
+}
+
+.watermark {
+    opacity: 0.3;
+    width: clamp(119px, calc(calc(100vw - 20px) / 4), 300px);
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.header-logo {
+    height: 65px;
+    margin-top: 15px;
+}
+
+header {
+    background-color: #9ad6ca;
+}
+
+@media only screen and (max-width: 700px) {
+    header {
+        text-align: center;
+    }
+}

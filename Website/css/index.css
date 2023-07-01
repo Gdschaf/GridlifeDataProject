@@ -1,0 +1,57 @@
+.grid-container {
+    grid-template-rows: 100px 50px 1fr 100px;
+}
+
+/* ALL NAV STUFF BELOW */
+
+.nav-sublist {
+    width: 100%;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 1fr 326px 1fr;
+
+    align-items: center;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+}
+
+.nav-graph-select {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    grid-column-start: 2;
+}
+
+.nav-login {
+    margin-right: 10px;
+    text-align: right;
+    grid-column-start: 3;
+    font-size: 15px;
+}
+
+.nav-graph-select li {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.nav-button {
+    height: 44px;
+    margin-top: 2px;
+}
+
+#TrackBattle-Button, #GLTC-Button {
+    background-color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    cursor:pointer;
+}
+
+#TrackBattle-Button:hover, #GLTC-Button:hover {
+    border: 1px solid #000000
+}

@@ -1,0 +1,29 @@
+.grid-container {
+    grid-template-rows: 100px 1fr 100px;
+}
+
+.login form input[type="password"] {
+    margin-bottom: 4px;
+}
+
+.login form a[type="forgot"] {
+    font-size: 12px;
+    margin-left: 258px;
+    margin-bottom: 5px;
+}
+
+.sign-up-link {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-up-text {
+    margin: 0px auto;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-right: 185px;
+}
